@@ -248,11 +248,11 @@ class Ui_ct_FormClientes(object):
         self.bt_Voltar.setFocusPolicy(QtCore.Qt.NoFocus)
         self.bt_Voltar.setContextMenuPolicy(QtCore.Qt.ActionsContextMenu)
         self.bt_Voltar.setStyleSheet("QPushButton {\n"
-"background-color: #1E87F0;\n"
+"background-color: rgb(170, 0, 0);\n"
 "color: #FFF\n"
 " }\n"
 "QPushButton:hover{\n"
-"background-color: #40a286\n"
+"background-color: rgb(255, 0, 0);\n"
 "}")
         self.bt_Voltar.setIconSize(QtCore.QSize(75, 35))
         self.bt_Voltar.setObjectName("bt_Voltar")
@@ -268,7 +268,7 @@ class Ui_ct_FormClientes(object):
         self.bt_Salvar.setFocusPolicy(QtCore.Qt.NoFocus)
         self.bt_Salvar.setContextMenuPolicy(QtCore.Qt.ActionsContextMenu)
         self.bt_Salvar.setStyleSheet("QPushButton {\n"
-"background-color: #7AB32E;\n"
+"background-color: rgb(0, 85, 0);\n"
 "color: #FFF\n"
 " }\n"
 "QPushButton:hover{\n"

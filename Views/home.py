@@ -21,7 +21,7 @@ class Ui_ct_Home(object):
         self.fr_VendasAbertas = QtWidgets.QFrame(self.HomeFrame)
         self.fr_VendasAbertas.setGeometry(QtCore.QRect(20, 10, 470, 280))
         self.fr_VendasAbertas.setStyleSheet("QFrame {\n"
-"background: rgba(0, 0, 0, 30%);\n"
+"background-color: rgb(65, 65, 65);\n"
 "border: none;\n"
 "border-radius: 20px\n"
 "}")
@@ -33,20 +33,20 @@ class Ui_ct_Home(object):
         font = QtGui.QFont()
         font.setFamily("Tahoma")
         font.setPointSize(13)
-        font.setWeight(75)
         font.setBold(True)
+        font.setWeight(75)
         self.bt_addCompra.setFont(font)
-        self.bt_addCompra.setCursor(QtCore.Qt.PointingHandCursor)
+        self.bt_addCompra.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
         self.bt_addCompra.setFocusPolicy(QtCore.Qt.NoFocus)
         self.bt_addCompra.setAutoFillBackground(False)
         self.bt_addCompra.setStyleSheet("QPushButton{\n"
+"background-color: rgb(0, 0, 255);\n"
 "border: none;\n"
 "color: #FFF;\n"
-"background: #7AB32E ;\n"
 "border-radius: 15px\n"
 "}\n"
 "QPushButton:hover {\n"
-"background: #40A286 \n"
+"background-color: rgb(0, 85, 255);\n"
 "}\n"
 "QPushButton:disabled {\n"
 "background: #7AB32E\n"
@@ -59,20 +59,20 @@ class Ui_ct_Home(object):
         font = QtGui.QFont()
         font.setFamily("Tahoma")
         font.setPointSize(12)
-        font.setWeight(75)
         font.setBold(True)
+        font.setWeight(75)
         self.bt_addItem.setFont(font)
-        self.bt_addItem.setCursor(QtCore.Qt.PointingHandCursor)
+        self.bt_addItem.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
         self.bt_addItem.setFocusPolicy(QtCore.Qt.NoFocus)
         self.bt_addItem.setAutoFillBackground(False)
         self.bt_addItem.setStyleSheet("QPushButton{\n"
+"background-color: rgb(0, 0, 255);\n"
 "border: none;\n"
 "color: #FFF;\n"
-"background: #7AB32E ;\n"
 "border-radius: 15px\n"
 "}\n"
 "QPushButton:hover {\n"
-"background: #40A286 \n"
+"background-color: rgb(0, 85, 255);\n"
 "}\n"
 "QPushButton:disabled {\n"
 "background: #7AB32E\n"
@@ -81,24 +81,24 @@ class Ui_ct_Home(object):
         self.bt_addItem.setFlat(True)
         self.bt_addItem.setObjectName("bt_addItem")
         self.label = QtWidgets.QLabel(self.fr_VendasAbertas)
-        self.label.setGeometry(QtCore.QRect(75, 20, 150, 30))
+        self.label.setGeometry(QtCore.QRect(40, 20, 171, 30))
         font = QtGui.QFont()
         font.setFamily("Tahoma")
         font.setPointSize(18)
-        font.setWeight(75)
         font.setBold(True)
+        font.setWeight(75)
         self.label.setFont(font)
         self.label.setStyleSheet("background: None;\n"
 "color: #FFF")
         self.label.setAlignment(QtCore.Qt.AlignLeading|QtCore.Qt.AlignLeft|QtCore.Qt.AlignVCenter)
         self.label.setObjectName("label")
         self.label_2 = QtWidgets.QLabel(self.fr_VendasAbertas)
-        self.label_2.setGeometry(QtCore.QRect(75, 45, 150, 20))
+        self.label_2.setGeometry(QtCore.QRect(40, 50, 171, 20))
         font = QtGui.QFont()
         font.setFamily("Tahoma")
         font.setPointSize(10)
-        font.setWeight(50)
         font.setBold(False)
+        font.setWeight(50)
         self.label_2.setFont(font)
         self.label_2.setStyleSheet("background: None;\n"
 "color: #FFF")
@@ -111,54 +111,54 @@ class Ui_ct_Home(object):
         self.line.setFrameShadow(QtWidgets.QFrame.Sunken)
         self.line.setObjectName("line")
         self.line_2 = QtWidgets.QFrame(self.fr_VendasAbertas)
-        self.line_2.setGeometry(QtCore.QRect(20, 170, 210, 2))
+        self.line_2.setGeometry(QtCore.QRect(20, 180, 210, 2))
         self.line_2.setStyleSheet("background: #CCC")
         self.line_2.setFrameShape(QtWidgets.QFrame.HLine)
         self.line_2.setFrameShadow(QtWidgets.QFrame.Sunken)
         self.line_2.setObjectName("line_2")
         self.label_3 = QtWidgets.QLabel(self.fr_VendasAbertas)
-        self.label_3.setGeometry(QtCore.QRect(75, 107, 150, 30))
+        self.label_3.setGeometry(QtCore.QRect(40, 100, 161, 30))
         font = QtGui.QFont()
         font.setFamily("Tahoma")
         font.setPointSize(18)
-        font.setWeight(75)
         font.setBold(True)
+        font.setWeight(75)
         self.label_3.setFont(font)
         self.label_3.setStyleSheet("background: None;\n"
 "color: #FFF")
         self.label_3.setAlignment(QtCore.Qt.AlignLeading|QtCore.Qt.AlignLeft|QtCore.Qt.AlignVCenter)
         self.label_3.setObjectName("label_3")
         self.label_4 = QtWidgets.QLabel(self.fr_VendasAbertas)
-        self.label_4.setGeometry(QtCore.QRect(75, 132, 150, 20))
+        self.label_4.setGeometry(QtCore.QRect(40, 140, 171, 20))
         font = QtGui.QFont()
         font.setFamily("Tahoma")
         font.setPointSize(10)
-        font.setWeight(50)
         font.setBold(False)
+        font.setWeight(50)
         self.label_4.setFont(font)
         self.label_4.setStyleSheet("background: None;\n"
 "color: #FFF")
         self.label_4.setAlignment(QtCore.Qt.AlignLeading|QtCore.Qt.AlignLeft|QtCore.Qt.AlignVCenter)
         self.label_4.setObjectName("label_4")
         self.label_5 = QtWidgets.QLabel(self.fr_VendasAbertas)
-        self.label_5.setGeometry(QtCore.QRect(50, 255, 150, 20))
+        self.label_5.setGeometry(QtCore.QRect(30, 240, 191, 20))
         font = QtGui.QFont()
         font.setFamily("Tahoma")
         font.setPointSize(10)
-        font.setWeight(50)
         font.setBold(False)
+        font.setWeight(50)
         self.label_5.setFont(font)
         self.label_5.setStyleSheet("background: None;\n"
 "color: #FFF")
         self.label_5.setAlignment(QtCore.Qt.AlignCenter)
         self.label_5.setObjectName("label_5")
         self.label_6 = QtWidgets.QLabel(self.fr_VendasAbertas)
-        self.label_6.setGeometry(QtCore.QRect(50, 230, 150, 30))
+        self.label_6.setGeometry(QtCore.QRect(30, 210, 181, 30))
         font = QtGui.QFont()
         font.setFamily("Tahoma")
         font.setPointSize(18)
-        font.setWeight(75)
         font.setBold(True)
+        font.setWeight(75)
         self.label_6.setFont(font)
         self.label_6.setStyleSheet("background: None;\n"
 "color: #FFF")
@@ -169,10 +169,10 @@ class Ui_ct_Home(object):
         font = QtGui.QFont()
         font.setFamily("Arial [TMC ]")
         font.setPointSize(35)
-        font.setWeight(75)
         font.setBold(True)
+        font.setWeight(75)
         self.bt_estoqueBaixo.setFont(font)
-        self.bt_estoqueBaixo.setCursor(QtCore.Qt.PointingHandCursor)
+        self.bt_estoqueBaixo.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
         self.bt_estoqueBaixo.setStyleSheet("QPushButton {\n"
 "background: none;\n"
 "color: #ffff00;\n"
@@ -202,10 +202,10 @@ class Ui_ct_Home(object):
         font = QtGui.QFont()
         font.setFamily("Arial [TMC ]")
         font.setPointSize(35)
-        font.setWeight(75)
         font.setBold(True)
+        font.setWeight(75)
         self.bt_pedidosHoje.setFont(font)
-        self.bt_pedidosHoje.setCursor(QtCore.Qt.PointingHandCursor)
+        self.bt_pedidosHoje.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
         self.bt_pedidosHoje.setStyleSheet("QPushButton {\n"
 "background: none;\n"
 "color: #ffff00;\n"
@@ -235,10 +235,10 @@ class Ui_ct_Home(object):
         font = QtGui.QFont()
         font.setFamily("Arial [TMC ]")
         font.setPointSize(35)
-        font.setWeight(75)
         font.setBold(True)
+        font.setWeight(75)
         self.bt_produtosAtivos.setFont(font)
-        self.bt_produtosAtivos.setCursor(QtCore.Qt.PointingHandCursor)
+        self.bt_produtosAtivos.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
         self.bt_produtosAtivos.setStyleSheet("QPushButton {\n"
 "background: none;\n"
 "color: #ffff00;\n"
@@ -266,7 +266,7 @@ class Ui_ct_Home(object):
         self.fr_VendasAbertas_2 = QtWidgets.QFrame(self.HomeFrame)
         self.fr_VendasAbertas_2.setGeometry(QtCore.QRect(510, 10, 470, 280))
         self.fr_VendasAbertas_2.setStyleSheet("QFrame {\n"
-"background: rgba(0, 0, 0, 30%);\n"
+"background-color: rgb(65, 65, 65);\n"
 "border: none;\n"
 "border-radius: 20px\n"
 "}")
@@ -278,20 +278,20 @@ class Ui_ct_Home(object):
         font = QtGui.QFont()
         font.setFamily("Tahoma")
         font.setPointSize(13)
-        font.setWeight(75)
         font.setBold(True)
+        font.setWeight(75)
         self.bt_addCliente.setFont(font)
-        self.bt_addCliente.setCursor(QtCore.Qt.PointingHandCursor)
+        self.bt_addCliente.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
         self.bt_addCliente.setFocusPolicy(QtCore.Qt.NoFocus)
         self.bt_addCliente.setAutoFillBackground(False)
         self.bt_addCliente.setStyleSheet("QPushButton{\n"
+"background-color: rgb(0, 0, 255);\n"
 "border: none;\n"
 "color: #FFF;\n"
-"background: #7AB32E ;\n"
 "border-radius: 15px\n"
 "}\n"
 "QPushButton:hover {\n"
-"background: #40A286 \n"
+"background-color: rgb(0, 85, 255);\n"
 "}\n"
 "QPushButton:disabled {\n"
 "background: #7AB32E\n"
@@ -304,20 +304,20 @@ class Ui_ct_Home(object):
         font = QtGui.QFont()
         font.setFamily("Tahoma")
         font.setPointSize(12)
-        font.setWeight(75)
         font.setBold(True)
+        font.setWeight(75)
         self.bt_addVenda.setFont(font)
-        self.bt_addVenda.setCursor(QtCore.Qt.PointingHandCursor)
+        self.bt_addVenda.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
         self.bt_addVenda.setFocusPolicy(QtCore.Qt.NoFocus)
         self.bt_addVenda.setAutoFillBackground(False)
         self.bt_addVenda.setStyleSheet("QPushButton{\n"
+"background-color: rgb(0, 0, 255);\n"
 "border: none;\n"
 "color: #FFF;\n"
-"background: #7AB32E ;\n"
 "border-radius: 15px\n"
 "}\n"
 "QPushButton:hover {\n"
-"background: #40A286 \n"
+"background-color: rgb(0, 85, 255);\n"
 "}\n"
 "QPushButton:disabled {\n"
 "background: #7AB32E\n"
@@ -332,42 +332,42 @@ class Ui_ct_Home(object):
         self.line_3.setFrameShadow(QtWidgets.QFrame.Sunken)
         self.line_3.setObjectName("line_3")
         self.line_4 = QtWidgets.QFrame(self.fr_VendasAbertas_2)
-        self.line_4.setGeometry(QtCore.QRect(20, 170, 210, 2))
+        self.line_4.setGeometry(QtCore.QRect(20, 180, 210, 2))
         self.line_4.setStyleSheet("background: #CCC")
         self.line_4.setFrameShape(QtWidgets.QFrame.HLine)
         self.line_4.setFrameShadow(QtWidgets.QFrame.Sunken)
         self.line_4.setObjectName("line_4")
         self.label_11 = QtWidgets.QLabel(self.fr_VendasAbertas_2)
-        self.label_11.setGeometry(QtCore.QRect(50, 255, 150, 20))
+        self.label_11.setGeometry(QtCore.QRect(50, 240, 150, 20))
         font = QtGui.QFont()
         font.setFamily("Tahoma")
         font.setPointSize(10)
-        font.setWeight(50)
         font.setBold(False)
+        font.setWeight(50)
         self.label_11.setFont(font)
         self.label_11.setStyleSheet("background: None;\n"
 "color: #FFF")
         self.label_11.setAlignment(QtCore.Qt.AlignCenter)
         self.label_11.setObjectName("label_11")
         self.label_12 = QtWidgets.QLabel(self.fr_VendasAbertas_2)
-        self.label_12.setGeometry(QtCore.QRect(50, 230, 150, 30))
+        self.label_12.setGeometry(QtCore.QRect(50, 210, 150, 30))
         font = QtGui.QFont()
         font.setFamily("Tahoma")
         font.setPointSize(18)
-        font.setWeight(75)
         font.setBold(True)
+        font.setWeight(75)
         self.label_12.setFont(font)
         self.label_12.setStyleSheet("background: None;\n"
 "color: #FFF")
         self.label_12.setAlignment(QtCore.Qt.AlignCenter)
         self.label_12.setObjectName("label_12")
         self.lb_mesAtual = QtWidgets.QLabel(self.fr_VendasAbertas_2)
-        self.lb_mesAtual.setGeometry(QtCore.QRect(50, 140, 150, 20))
+        self.lb_mesAtual.setGeometry(QtCore.QRect(30, 150, 201, 20))
         font = QtGui.QFont()
         font.setFamily("Tahoma")
         font.setPointSize(10)
-        font.setWeight(50)
         font.setBold(False)
+        font.setWeight(50)
         self.lb_mesAtual.setFont(font)
         self.lb_mesAtual.setStyleSheet("background: None;\n"
 "color: #FFF")
@@ -387,8 +387,8 @@ class Ui_ct_Home(object):
         font = QtGui.QFont()
         font.setFamily("Tahoma")
         font.setPointSize(10)
-        font.setWeight(50)
         font.setBold(False)
+        font.setWeight(50)
         self.label_15.setFont(font)
         self.label_15.setStyleSheet("background: None;\n"
 "color: #FFF")
@@ -408,10 +408,10 @@ class Ui_ct_Home(object):
         font = QtGui.QFont()
         font.setFamily("Arial [TMC ]")
         font.setPointSize(35)
-        font.setWeight(75)
         font.setBold(True)
+        font.setWeight(75)
         self.bt_vendidoHoje.setFont(font)
-        self.bt_vendidoHoje.setCursor(QtCore.Qt.PointingHandCursor)
+        self.bt_vendidoHoje.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
         self.bt_vendidoHoje.setStyleSheet("QPushButton {\n"
 "background: none;\n"
 "color: #ffff00;\n"
@@ -441,10 +441,10 @@ class Ui_ct_Home(object):
         font = QtGui.QFont()
         font.setFamily("Arial [TMC ]")
         font.setPointSize(35)
-        font.setWeight(75)
         font.setBold(True)
+        font.setWeight(75)
         self.bt_vendidoMes.setFont(font)
-        self.bt_vendidoMes.setCursor(QtCore.Qt.PointingHandCursor)
+        self.bt_vendidoMes.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
         self.bt_vendidoMes.setStyleSheet("QPushButton {\n"
 "background: none;\n"
 "color: #ffff00;\n"
@@ -474,10 +474,10 @@ class Ui_ct_Home(object):
         font = QtGui.QFont()
         font.setFamily("Arial [TMC ]")
         font.setPointSize(35)
-        font.setWeight(75)
         font.setBold(True)
+        font.setWeight(75)
         self.bt_clientesAtendidos.setFont(font)
-        self.bt_clientesAtendidos.setCursor(QtCore.Qt.PointingHandCursor)
+        self.bt_clientesAtendidos.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
         self.bt_clientesAtendidos.setStyleSheet("QPushButton {\n"
 "background: none;\n"
 "color: #ffff00;\n"
@@ -505,7 +505,7 @@ class Ui_ct_Home(object):
         self.fr_VendasAbertas_3 = QtWidgets.QFrame(self.HomeFrame)
         self.fr_VendasAbertas_3.setGeometry(QtCore.QRect(20, 310, 470, 280))
         self.fr_VendasAbertas_3.setStyleSheet("QFrame {\n"
-"background: rgba(0, 0, 0, 30%);\n"
+"background-color: rgb(65, 65, 65);\n"
 "border: none;\n"
 "border-radius: 20px\n"
 "}")
@@ -517,20 +517,20 @@ class Ui_ct_Home(object):
         font = QtGui.QFont()
         font.setFamily("Tahoma")
         font.setPointSize(13)
-        font.setWeight(75)
         font.setBold(True)
+        font.setWeight(75)
         self.bt_apagarHoje.setFont(font)
-        self.bt_apagarHoje.setCursor(QtCore.Qt.PointingHandCursor)
+        self.bt_apagarHoje.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
         self.bt_apagarHoje.setFocusPolicy(QtCore.Qt.NoFocus)
         self.bt_apagarHoje.setAutoFillBackground(False)
         self.bt_apagarHoje.setStyleSheet("QPushButton{\n"
+"background-color: rgb(0, 0, 255);\n"
 "border: none;\n"
 "color: #FFF;\n"
-"background: #7AB32E ;\n"
 "border-radius: 15px\n"
 "}\n"
 "QPushButton:hover {\n"
-"background: #40A286 \n"
+"background-color: rgb(0, 85, 255);\n"
 "}\n"
 "QPushButton:disabled {\n"
 "background: #7AB32E\n"
@@ -543,20 +543,20 @@ class Ui_ct_Home(object):
         font = QtGui.QFont()
         font.setFamily("Tahoma")
         font.setPointSize(12)
-        font.setWeight(75)
         font.setBold(True)
+        font.setWeight(75)
         self.bt_areceberHoje.setFont(font)
-        self.bt_areceberHoje.setCursor(QtCore.Qt.PointingHandCursor)
+        self.bt_areceberHoje.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
         self.bt_areceberHoje.setFocusPolicy(QtCore.Qt.NoFocus)
         self.bt_areceberHoje.setAutoFillBackground(False)
         self.bt_areceberHoje.setStyleSheet("QPushButton{\n"
+"background-color: rgb(0, 0, 255);\n"
 "border: none;\n"
 "color: #FFF;\n"
-"background: #7AB32E ;\n"
 "border-radius: 15px\n"
 "}\n"
 "QPushButton:hover {\n"
-"background: #40A286 \n"
+"background-color: rgb(0, 85, 255);\n"
 "}\n"
 "QPushButton:disabled {\n"
 "background: #7AB32E\n"
@@ -571,30 +571,30 @@ class Ui_ct_Home(object):
         self.line_5.setFrameShadow(QtWidgets.QFrame.Sunken)
         self.line_5.setObjectName("line_5")
         self.line_6 = QtWidgets.QFrame(self.fr_VendasAbertas_3)
-        self.line_6.setGeometry(QtCore.QRect(20, 170, 210, 2))
+        self.line_6.setGeometry(QtCore.QRect(20, 180, 210, 2))
         self.line_6.setStyleSheet("background: #CCC")
         self.line_6.setFrameShape(QtWidgets.QFrame.HLine)
         self.line_6.setFrameShadow(QtWidgets.QFrame.Sunken)
         self.line_6.setObjectName("line_6")
         self.label_13 = QtWidgets.QLabel(self.fr_VendasAbertas_3)
-        self.label_13.setGeometry(QtCore.QRect(50, 255, 150, 20))
+        self.label_13.setGeometry(QtCore.QRect(50, 250, 150, 20))
         font = QtGui.QFont()
         font.setFamily("Tahoma")
         font.setPointSize(10)
-        font.setWeight(50)
         font.setBold(False)
+        font.setWeight(50)
         self.label_13.setFont(font)
         self.label_13.setStyleSheet("background: None;\n"
 "color: #FFF")
         self.label_13.setAlignment(QtCore.Qt.AlignCenter)
         self.label_13.setObjectName("label_13")
         self.label_16 = QtWidgets.QLabel(self.fr_VendasAbertas_3)
-        self.label_16.setGeometry(QtCore.QRect(50, 230, 150, 30))
+        self.label_16.setGeometry(QtCore.QRect(50, 220, 150, 30))
         font = QtGui.QFont()
         font.setFamily("Tahoma")
         font.setPointSize(18)
-        font.setWeight(75)
         font.setBold(True)
+        font.setWeight(75)
         self.label_16.setFont(font)
         self.label_16.setStyleSheet("background: None;\n"
 "color: #FFF")
@@ -615,8 +615,8 @@ class Ui_ct_Home(object):
         font = QtGui.QFont()
         font.setFamily("Tahoma")
         font.setPointSize(10)
-        font.setWeight(50)
         font.setBold(False)
+        font.setWeight(50)
         self.label_17.setFont(font)
         self.label_17.setStyleSheet("background: None;\n"
 "color: #FFF")
@@ -636,8 +636,8 @@ class Ui_ct_Home(object):
         font = QtGui.QFont()
         font.setFamily("Tahoma")
         font.setPointSize(10)
-        font.setWeight(50)
         font.setBold(False)
+        font.setWeight(50)
         self.label_18.setFont(font)
         self.label_18.setStyleSheet("background: None;\n"
 "color: #FFF")
@@ -684,7 +684,7 @@ class Ui_ct_Home(object):
         self.fr_VendasAbertas_4 = QtWidgets.QFrame(self.HomeFrame)
         self.fr_VendasAbertas_4.setGeometry(QtCore.QRect(510, 310, 470, 280))
         self.fr_VendasAbertas_4.setStyleSheet("QFrame {\n"
-"background: rgba(0, 0, 0, 30%);\n"
+"background-color: rgb(65, 65, 65);\n"
 "border: none;\n"
 "border-radius: 20px\n"
 "}")
@@ -734,48 +734,49 @@ class Ui_ct_Home(object):
         self.lb_produtosAtivos_16.setOpenExternalLinks(True)
         self.lb_produtosAtivos_16.setObjectName("lb_produtosAtivos_16")
 
-        self.tradHome(ct_Home)
+        self.retranslateUi(ct_Home)
         QtCore.QMetaObject.connectSlotsByName(ct_Home)
 
-    def tradHome(self, ct_Home):
-        ct_Home.setWindowTitle(QtWidgets.QApplication.translate("ct_Home", "Frame", None, -1))
-        self.bt_addCompra.setToolTip(QtWidgets.QApplication.translate("ct_Home", "<html><head/><body><p>Nova Compra</p></body></html>", None, -1))
-        self.bt_addCompra.setShortcut(QtWidgets.QApplication.translate("ct_Home", "F7", None, -1))
-        self.bt_addItem.setToolTip(QtWidgets.QApplication.translate("ct_Home", "<html><head/><body><p>Adicioar Item</p></body></html>", None, -1))
-        self.bt_addItem.setWhatsThis(QtWidgets.QApplication.translate("ct_Home", "<html><head/><body><p><br/></p></body></html>", None, -1))
-        self.bt_addItem.setShortcut(QtWidgets.QApplication.translate("ct_Home", "F2", None, -1))
-        self.label.setText(QtWidgets.QApplication.translate("ct_Home", "PRODUTOS", None, -1))
-        self.label_2.setText(QtWidgets.QApplication.translate("ct_Home", "COM ESTOQUE BAIXO", None, -1))
-        self.label_3.setText(QtWidgets.QApplication.translate("ct_Home", "PEDIDOS", None, -1))
-        self.label_4.setText(QtWidgets.QApplication.translate("ct_Home", "PARA RECEBER HOJE", None, -1))
-        self.label_5.setText(QtWidgets.QApplication.translate("ct_Home", "ATIVOS CADASTRADOS", None, -1))
-        self.label_6.setText(QtWidgets.QApplication.translate("ct_Home", "PRODUTOS", None, -1))
-        self.bt_addCliente.setToolTip(QtWidgets.QApplication.translate("ct_Home", "<html><head/><body><p>Novo Cliente</p></body></html>", None, -1))
-        self.bt_addCliente.setShortcut(QtWidgets.QApplication.translate("ct_Home", "F7", None, -1))
-        self.bt_addVenda.setToolTip(QtWidgets.QApplication.translate("ct_Home", "<html><head/><body><p>Nova Venda</p></body></html>", None, -1))
-        self.bt_addVenda.setWhatsThis(QtWidgets.QApplication.translate("ct_Home", "<html><head/><body><p><br/></p></body></html>", None, -1))
-        self.bt_addVenda.setShortcut(QtWidgets.QApplication.translate("ct_Home", "F2", None, -1))
-        self.label_11.setText(QtWidgets.QApplication.translate("ct_Home", "ATENDIDOS HOJE", None, -1))
-        self.label_12.setText(QtWidgets.QApplication.translate("ct_Home", "CLIENTES", None, -1))
-        self.lb_mesAtual.setText(QtWidgets.QApplication.translate("ct_Home", "VENDIDO EM SETEMBRO", None, -1))
-        self.lb_produtosAtivos_4.setText(QtWidgets.QApplication.translate("ct_Home", "<span style=\"font-family:\'Arial\'; font-size:15px;\n"
-"                font-weight: bold;color:#ffff00; \">R$</span>", None, -1))
-        self.label_15.setText(QtWidgets.QApplication.translate("ct_Home", "VENDIDO HOJE", None, -1))
-        self.lb_produtosAtivos_6.setText(QtWidgets.QApplication.translate("ct_Home", "<span style=\"font-family:\'Arial\'; font-size:15px;\n"
-"                font-weight: bold;color:#ffff00; \">R$</span>", None, -1))
-        self.bt_apagarHoje.setToolTip(QtWidgets.QApplication.translate("ct_Home", "<html><head/><body><p>Conta a pagar hoje</p></body></html>", None, -1))
-        self.bt_apagarHoje.setShortcut(QtWidgets.QApplication.translate("ct_Home", "F7", None, -1))
-        self.bt_areceberHoje.setToolTip(QtWidgets.QApplication.translate("ct_Home", "<html><head/><body><p>Conta a receber hoje</p></body></html>", None, -1))
-        self.bt_areceberHoje.setWhatsThis(QtWidgets.QApplication.translate("ct_Home", "<html><head/><body><p><br/></p></body></html>", None, -1))
-        self.bt_areceberHoje.setShortcut(QtWidgets.QApplication.translate("ct_Home", "F2", None, -1))
-        self.label_13.setText(QtWidgets.QApplication.translate("ct_Home", "FINAL HOJE", None, -1))
-        self.label_16.setText(QtWidgets.QApplication.translate("ct_Home", "SALDO", None, -1))
-        self.label_17.setText(QtWidgets.QApplication.translate("ct_Home", "A PAGAR HOJE", None, -1))
-        self.lb_produtosAtivos_9.setText(QtWidgets.QApplication.translate("ct_Home", "<span style=\"font-family:\'Arial\'; font-size:15px;\n"
-"                font-weight: bold;color:#ffff00; \">R$</span>", None, -1))
-        self.label_18.setText(QtWidgets.QApplication.translate("ct_Home", "A RECEBER HOJE", None, -1))
-        self.lb_produtosAtivos_11.setText(QtWidgets.QApplication.translate("ct_Home", "<span style=\"font-family:\'Arial\'; font-size:15px;\n"
-"                font-weight: bold;color:#ffff00; \">R$</span>", None, -1))
-        self.lb_produtosAtivos_13.setText(QtWidgets.QApplication.translate("ct_Home", "<span style=\"font-family:\'Arial\'; font-size:15px;\n"
-"                font-weight: bold;color:#ffff00; \">R$</span>", None, -1))
+    def retranslateUi(self, ct_Home):
+        _translate = QtCore.QCoreApplication.translate
+        ct_Home.setWindowTitle(_translate("ct_Home", "Frame"))
+        self.bt_addCompra.setToolTip(_translate("ct_Home", "<html><head/><body><p>Nova Compra</p></body></html>"))
+        self.bt_addCompra.setShortcut(_translate("ct_Home", "F7"))
+        self.bt_addItem.setToolTip(_translate("ct_Home", "<html><head/><body><p>Adicioar Item</p></body></html>"))
+        self.bt_addItem.setWhatsThis(_translate("ct_Home", "<html><head/><body><p><br/></p></body></html>"))
+        self.bt_addItem.setShortcut(_translate("ct_Home", "F2"))
+        self.label.setText(_translate("ct_Home", "PRODUTOS"))
+        self.label_2.setText(_translate("ct_Home", "COM ESTOQUE BAIXO"))
+        self.label_3.setText(_translate("ct_Home", "<html><head/><body><p align=\"center\">PEDIDOS</p></body></html>"))
+        self.label_4.setText(_translate("ct_Home", "PARA RECEBER HOJE"))
+        self.label_5.setText(_translate("ct_Home", "ATIVOS CADASTRADOS"))
+        self.label_6.setText(_translate("ct_Home", "PRODUTOS"))
+        self.bt_addCliente.setToolTip(_translate("ct_Home", "<html><head/><body><p>Novo Cliente</p></body></html>"))
+        self.bt_addCliente.setShortcut(_translate("ct_Home", "F7"))
+        self.bt_addVenda.setToolTip(_translate("ct_Home", "<html><head/><body><p>Nova Venda</p></body></html>"))
+        self.bt_addVenda.setWhatsThis(_translate("ct_Home", "<html><head/><body><p><br/></p></body></html>"))
+        self.bt_addVenda.setShortcut(_translate("ct_Home", "F2"))
+        self.label_11.setText(_translate("ct_Home", "ATENDIDOS HOJE"))
+        self.label_12.setText(_translate("ct_Home", "CLIENTES"))
+        self.lb_mesAtual.setText(_translate("ct_Home", "VENDIDO EM SETEMBRO"))
+        self.lb_produtosAtivos_4.setText(_translate("ct_Home", "<span style=\"font-family:\'Arial\'; font-size:15px;\n"
+"                font-weight: bold;color:#ffff00; \">R$</span>"))
+        self.label_15.setText(_translate("ct_Home", "VENDIDO HOJE"))
+        self.lb_produtosAtivos_6.setText(_translate("ct_Home", "<span style=\"font-family:\'Arial\'; font-size:15px;\n"
+"                font-weight: bold;color:#ffff00; \">R$</span>"))
+        self.bt_apagarHoje.setToolTip(_translate("ct_Home", "<html><head/><body><p>Conta a pagar hoje</p></body></html>"))
+        self.bt_apagarHoje.setShortcut(_translate("ct_Home", "F7"))
+        self.bt_areceberHoje.setToolTip(_translate("ct_Home", "<html><head/><body><p>Conta a receber hoje</p></body></html>"))
+        self.bt_areceberHoje.setWhatsThis(_translate("ct_Home", "<html><head/><body><p><br/></p></body></html>"))
+        self.bt_areceberHoje.setShortcut(_translate("ct_Home", "F2"))
+        self.label_13.setText(_translate("ct_Home", "FINAL HOJE"))
+        self.label_16.setText(_translate("ct_Home", "SALDO"))
+        self.label_17.setText(_translate("ct_Home", "A PAGAR HOJE"))
+        self.lb_produtosAtivos_9.setText(_translate("ct_Home", "<span style=\"font-family:\'Arial\'; font-size:15px;\n"
+"                font-weight: bold;color:#ffff00; \">R$</span>"))
+        self.label_18.setText(_translate("ct_Home", "A RECEBER HOJE"))
+        self.lb_produtosAtivos_11.setText(_translate("ct_Home", "<span style=\"font-family:\'Arial\'; font-size:15px;\n"
+"                font-weight: bold;color:#ffff00; \">R$</span>"))
+        self.lb_produtosAtivos_13.setText(_translate("ct_Home", "<span style=\"font-family:\'Arial\'; font-size:15px;\n"
+"                font-weight: bold;color:#ffff00; \">R$</span>"))
 

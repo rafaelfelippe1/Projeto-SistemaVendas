@@ -94,11 +94,11 @@ border: none;</string>
      </property>
      <property name="styleSheet">
       <string notr="true">QPushButton {
-background-color: #1E87F0;
+background-color: rgb(170, 0, 0);
 color: #FFF
-}
+ }
 QPushButton:hover{
-background-color: #40a286
+background-color: rgb(255, 0, 0);
 }</string>
      </property>
      <property name="text">
@@ -133,7 +133,7 @@ background-color: #40a286
      </property>
      <property name="styleSheet">
       <string notr="true">QPushButton {
-background-color: #7AB32E;
+background-color: rgb(0, 85, 0);
 color: #FFF
  }
 QPushButton:hover{
@@ -306,7 +306,7 @@ color: rgb(80,79,79)
      border-bottom-right-radius: 3px;
  }
 QDateEdit::down-arrow {
-     image: url("+self.resourcepath('Images/down.png')+");
+     image: url(&quot;+self.resourcepath('Images/down.png')+&quot;);
  }
 QCalendarWidget QAbstractItemView:enabled 
   {
@@ -392,7 +392,7 @@ color: rgb(80,79,79)
      border-bottom-right-radius: 3px;
  }
 QDateEdit::down-arrow {
-     image: url("+self.resourcepath('Images/down.png')+");
+     image: url(&quot;+self.resourcepath('Images/down.png')+&quot;);
  }
 QCalendarWidget QAbstractItemView:enabled 
   {
@@ -553,7 +553,7 @@ color: rgb(80,79,79)
      border-bottom-right-radius: 3px;
  }
 QDateEdit::down-arrow {
-     image: url("+self.resourcepath('Images/down.png')+");
+     image: url(&quot;+self.resourcepath('Images/down.png')+&quot;);
  }
 QCalendarWidget QAbstractItemView:enabled 
   {
@@ -1698,7 +1698,7 @@ border: 1px solid red;
 
  }
 QComboBox::down-arrow {
-     image: url("+self.resourcepath('Images/down.png')+");
+     image: url(&quot;+self.resourcepath('Images/down.png')+&quot;);
  }
 QComboBox QAbstractItemView {
     border: 1px solid darkgray;
@@ -1780,7 +1780,7 @@ border: 1px solid red;
 
  }
 QComboBox::down-arrow {
-     image: url("+self.resourcepath('Images/down.png')+");
+     image: url(&quot;+self.resourcepath('Images/down.png')+&quot;);
  }
 QComboBox QAbstractItemView {
     border: 1px solid darkgray;
@@ -1870,7 +1870,7 @@ font-weight: bold
      border-bottom-right-radius: 3px;
  }
 QDateEdit::down-arrow {
-     image: url("+self.resourcepath('Images/down.png')+");
+     image: url(&quot;+self.resourcepath('Images/down.png')+&quot;);
  }
 QCalendarWidget QAbstractItemView:enabled 
   {

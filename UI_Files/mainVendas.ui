@@ -91,7 +91,7 @@ border: none;</string>
      </property>
      <property name="styleSheet">
       <string notr="true">QPushButton {
-background-color: #7AB32E;
+background-color: rgb(65, 65, 65);
  }
 QPushButton:hover{
 background-color: #40a286
@@ -214,7 +214,7 @@ QDateEdit::down-arrow {
 font-size: 12px;
 font-family: &quot;Arial Unicode MS&quot;;
 
-color:#1E87F0;
+	color: rgb(74, 74, 74);
 border: none;
 }</string>
      </property>
@@ -236,7 +236,7 @@ border: none;
 font-size: 12px;
 font-family: &quot;Arial Unicode MS&quot;;
 
-color:#1E87F0;
+	color: rgb(74, 74, 74);
 border: none;
 }</string>
      </property>
@@ -297,7 +297,7 @@ QDateEdit::down-arrow {
 font-size: 12px;
 font-family: &quot;Arial Unicode MS&quot;;
 
-color:#1E87F0;
+	color: rgb(74, 74, 74);
 border: none;
 }</string>
      </property>
@@ -353,7 +353,7 @@ QComboBox::down-arrow {
 font-size: 12px;
 font-family: &quot;Arial Unicode MS&quot;;
 
-color:#1E87F0;
+	color: rgb(74, 74, 74);
 border: none;
 }</string>
      </property>

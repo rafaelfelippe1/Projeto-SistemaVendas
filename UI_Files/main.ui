@@ -41,7 +41,7 @@
   </property>
   <property name="styleSheet">
    <string notr="true">QMainWindow {
-background: url(&quot;Images/bg.png&quot;) 0 0 no-repeat #0884c2
+background-color: rgb(198, 218, 255);
 }
 </string>
   </property>
@@ -139,13 +139,10 @@ background: url(&quot;Images/bg.png&quot;) 0 0 no-repeat #0884c2
      </property>
      <property name="styleSheet">
       <string notr="true">QPushButton{
-
 border: none;
 color: #FFF
 }
-QPushButton:hover {
-background: #7AB32E
-}</string>
+</string>
      </property>
      <property name="text">
       <string/>
@@ -237,9 +234,7 @@ background: #7AB32E
 border: none;
 color: #FFF
 }
-QPushButton:hover {
-background: #7AB32E
-}</string>
+</string>
      </property>
      <property name="text">
       <string/>
@@ -294,9 +289,7 @@ background: #7AB32E
 border: none;
 color: #FFF
 }
-QPushButton:hover {
-background: #cacaca
-}</string>
+</string>
      </property>
      <property name="text">
       <string/>
@@ -356,13 +349,10 @@ background: #cacaca
      </property>
      <property name="styleSheet">
       <string notr="true">QPushButton{
-
 border: none;
 color: #FFF
 }
-QPushButton:hover {
-background: #cacaca
-}</string>
+</string>
      </property>
      <property name="text">
       <string/>
@@ -389,7 +379,7 @@ background: #cacaca
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background: #40a286</string>
+     <string notr="true">background-color: rgb(65, 65, 65);</string>
     </property>
     <widget class="QPushButton" name="bt_MainProdutos">
      <property name="geometry">
@@ -423,12 +413,12 @@ background: #cacaca
      </property>
      <property name="styleSheet">
       <string notr="true">QPushButton{
-background: 40A286 ;
+background-color: rgb(65, 65, 65);
 border: none;
 color: #FFF
 }
 QPushButton:hover {
-background: #7AB32E
+background-color: rgb(150, 150, 150);
 }
 QPushButton:disabled {
 background: #7AB32E
@@ -470,12 +460,12 @@ background: #7AB32E
      </property>
      <property name="styleSheet">
       <string notr="true">QPushButton{
-background: 40A286 ;
+background-color: rgb(65, 65, 65);
 border: none;
 color: #FFF
 }
 QPushButton:hover {
-background: #7AB32E
+background-color: rgb(150, 150, 150);
 }
 QPushButton:disabled {
 background: #7AB32E
@@ -517,12 +507,12 @@ background: #7AB32E
      </property>
      <property name="styleSheet">
       <string notr="true">QPushButton{
-background: 40A286 ;
+background-color: rgb(65, 65, 65);
 border: none;
 color: #FFF
 }
 QPushButton:hover {
-background: #7AB32E
+background-color: rgb(150, 150, 150);
 }
 QPushButton:disabled {
 background: #7AB32E
@@ -564,12 +554,12 @@ background: #7AB32E
      </property>
      <property name="styleSheet">
       <string notr="true">QPushButton{
-background: 40A286 ;
+background-color: rgb(65, 65, 65);
 border: none;
 color: #FFF
 }
 QPushButton:hover {
-background: #7AB32E
+background-color: rgb(150, 150, 150);
 }
 QPushButton:disabled {
 background: #7AB32E
@@ -611,12 +601,12 @@ background: #7AB32E
      </property>
      <property name="styleSheet">
       <string notr="true">QPushButton{
-background: 40A286 ;
+background-color: rgb(65, 65, 65);
 border: none;
 color: #FFF
 }
 QPushButton:hover {
-background: #7AB32E
+background-color: rgb(150, 150, 150);
 }
 QPushButton:disabled {
 background: #7AB32E
@@ -658,12 +648,12 @@ background: #7AB32E
      </property>
      <property name="styleSheet">
       <string notr="true">QPushButton{
-background: 40A286 ;
+background-color: rgb(65, 65, 65);
 border: none;
 color: #FFF
 }
 QPushButton:hover {
-background: #7AB32E
+background-color: rgb(150, 150, 150);
 }
 QPushButton:disabled {
 background: #7AB32E
@@ -710,12 +700,12 @@ QPushButton::menu-indicator {
      </property>
      <property name="styleSheet">
       <string notr="true">QPushButton{
-background: 40A286 ;
+background-color: rgb(65, 65, 65);
 border: none;
 color: #FFF
 }
 QPushButton:hover {
-background: #7AB32E
+background-color: rgb(150, 150, 150);
 }
 QPushButton:disabled {
 background: #7AB32E

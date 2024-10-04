@@ -201,12 +201,13 @@ border: 1px solid red;
     </property>
     <property name="styleSheet">
      <string notr="true">QPushButton {
-background-color: #7AB32E;
+background-color: rgb(0, 0, 255);
 color: #FFF
  }
 QPushButton:hover{
-background-color: #40a286
-}</string>
+background-color: rgb(0, 85, 255);
+}
+</string>
     </property>
     <property name="text">
      <string>LOGIN</string>

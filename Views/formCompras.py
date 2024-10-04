@@ -67,7 +67,7 @@ class Ui_ct_FormCompra(object):
         self.bt_Salvar.setFocusPolicy(QtCore.Qt.NoFocus)
         self.bt_Salvar.setContextMenuPolicy(QtCore.Qt.ActionsContextMenu)
         self.bt_Salvar.setStyleSheet("QPushButton {\n"
-"background-color: #7AB32E;\n"
+"background-color: rgb(0, 85, 0);\n"
 "color: #FFF\n"
 " }\n"
 "QPushButton:hover{\n"

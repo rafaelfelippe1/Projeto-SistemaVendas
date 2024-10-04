@@ -655,7 +655,7 @@ background: #F7F7F7</string>
      </property>
      <property name="styleSheet">
       <string notr="true">QPushButton {
-background-color: #7AB32E;
+background-color: rgb(0, 85, 0);
 color: #FFF
  }
 QPushButton:hover{
@@ -700,11 +700,11 @@ background-color: #40a286
      </property>
      <property name="styleSheet">
       <string notr="true">QPushButton {
-background-color: #1E87F0;
+background-color: rgb(170, 0, 0);
 color: #FFF
  }
 QPushButton:hover{
-background-color: #40a286
+background-color: rgb(255, 0, 0);
 }</string>
      </property>
      <property name="text">
